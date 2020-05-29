@@ -6,7 +6,7 @@
 			body { font-size:18px; }
 			pre { margin: 0; }
 			button { background:#DDD !important; width: 150px; padding: 6px 0; }
-			.wrapped { white-space: normal !important; }
+			.wrapped,.wrapped>code { white-space: normal !important; }
 		</style>
 		<script src="codemirror.js"></script>
 		<script src="./modes/javascript.js"></script>

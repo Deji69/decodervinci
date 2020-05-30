@@ -42,8 +42,7 @@ Check out the [introduction](/decodervinci/intro).
 
 Input code: <input id="code-input" type="string" placeholder="6 8 6 5 6 c 6 c 6 f">
 
-<pre class="cm-s-default wrapped"><code><span class="cm-keyword">const</span> <span class="cm-variable-2">code</span> <span class="cm-operator">=</span> <span id="assign-value" class="cm-string">"<script>document.write(code)</script>"</span>;</code></pre>
-<pre class="cm-s-default"><code>
+<pre class="cm-s-default"><code class="wrapped"><span class="cm-keyword">const</span> <span class="cm-variable-2">code</span> <span class="cm-operator">=</span> <span id="assign-value" class="cm-string">"<script>document.write(code)</script>"</span>;</code><code>
 <span class="cm-keyword">function</span> <span class="cm-variable-2">decode</span>(<span class="cm-variable-2">code</span>) {<textarea id="code">// edit me!
 // Remove spaces between chars
 code = code.split(' ').join('');

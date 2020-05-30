@@ -12,6 +12,7 @@ Dear devcord, your combined skills are needed to decrypt secret messages! All me
   * Feel free to Google and ~~steal~~ use code you find online in your answer code.
   * Clues and answers can be shared and discussed freely in the channel.
   * Collaboration is highly encouraged! MVPs will be crowned as well as those who post code answers. This is more of group effort to find the answer than a competition, but feel free to get competitive if you want.
+  * If you have any doubts or questions about the challenge(s), feel free to ping @Deji#4519, but be mindful that answers are will be made at his own convenience and discretion (he will not spoil clues unless he feels it is absolutely necessary).
 
 ** **
 ## [__Companion page__](/decodervinci/)  

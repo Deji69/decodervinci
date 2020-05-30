@@ -1,8 +1,11 @@
 # 📜   **<u>De</u>  <u>Cod</u>e<u>r</u>  <u>V</u>inci**  
 
-Dear devcord, your combined skills are needed to decrypt secret messages! All messages will be a human readable "English" message, keyphrase, etc. once decoded. It should be fairly obvious to tell when you have the decoded message. Encryption methods may involve different encryption or hashing algorithms or other tricks, and anything that the average devcord user may be expected to know.
+Dear devcord, your combined skills are needed to decrypt secret messa**g**es! All messages will be a **h**um**a**n readable "English" message, keyphrase, etc. **o**nce dec**od**ed. It should be fair**l**y ob**v**io**u**s to t**e**ll when you have the decoded message. Encryption methods may involve di**f**ferent encryption or hashing algorithms or other tri**ck**s, and anything that the average devcord **u**ser may be expected to k**n**ow.
 
 <details>🔍 Clues will be given, but may also need to be cracked. The method required to crack a clue may also be a clue. 🐱‍👤</details>
+
+`^..^^^^.^..^^..`  
+`.^^....^.^^..^^`
 
 ** **
 ## Rules
@@ -26,8 +29,8 @@ Dear devcord, your combined skills are needed to decrypt secret messages! All me
   * Obviously knowing JS is a big advantage, but Google/StackOverflow skills are more important. You can find most of the answers you need without too much knowledge of the language.
 
 ** **
-## Example
-  Given the code `6 8 6 5 6 c 6 c 6 f`, savvy devs should be able to see that every character is a valid hex char, just separated by  spaces between each digit. The first step would be to remove those spaces so it can be parsed. The next step would be to decode the hexadecimal. Super savvy devs might already be able to tell that the pairs are in ASCII letter range. Converting the hex to ASCII characters gives us the answer "hello". The JavaScript solution would therefore be:
+## Exempli gratia
+  Given the code `6 8 6 5 6 c 6 c 6 f`, savvy devs may notice every character is a valid hex char, just separated by spaces between the digits. The first step would be to remove those spaces so it can be parsed. The next step would be to decode the hexadecimal. Super savvy devs might already be able to tell that the pairs are in ASCII letter range. Converting the hex to ASCII characters gives us the answer "hello". The JavaScript solution would therefore be:
 ```js
 // Remove spaces between chars
 code = code.split(' ').join('');
@@ -38,5 +41,5 @@ code = code.match(/\w{2}/g).map(
 // Return the decoded string
 return code;
 ```
-If you went to the [companion page](https://deji69.github.io/decodervinci/) and submitted that code, you would see the answer in the output.  
-Don't worry if you couldn't tell the hex chars were in ASCII range, or even if they were ASCII chars. Experiment and use your intuition, you'll eventually get one step closer to figuring something out.
+If you went to the [companion page](https://deji69.github.io/decodervinci/) with that code, you would see the answer "hello" in the output.  
+Don't worry if you couldn't tell the hex chars were in ASCII range, or even if they were ASCII chars. Experiment and use your intuition, you'll eventually get one step closer to figuring things out.

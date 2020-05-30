@@ -1,6 +1,5 @@
 # 📜   **<u>De</u>  <u>Cod</u>e<u>r</u>  <u>V</u>inci**  
 
-
 Dear devcord, your combined skills are needed to decrypt secret messages! All messages will be a human readable "English" message, keyphrase, etc. once decoded. It should be fairly obvious to tell when you have the decoded message. Encryption methods may involve different encryption or hashing algorithms or other tricks, and anything that the average devcord user may be expected to know.
 
 <details>🔍 Clues will be given, but may also need to be cracked. The method required to crack a clue may also be a clue. 🐱‍👤</details>

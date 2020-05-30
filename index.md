@@ -38,7 +38,7 @@
 	});
 </script>
 
-Check out the [introduction](/intro).
+Check out the [introduction](/decodervinci/intro).
 
 Input code: <input id="code-input" type="string" placeholder="6 8 6 5 6 c 6 c 6 f">
 

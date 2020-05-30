@@ -16,7 +16,7 @@ Dear devcord, your combined skills are needed to decrypt secret messages! All me
 
 ** **
 ## [__Companion page__](/decodervinci/)  
-  The purpose of this page is to validate your answer code. Enter your code into the editor and press `decode(code);`. The result is displayed below. Given acceptable code, the decoded message should appear as the result. You are of course free to use whatever editors and tools you want, so long as you end up with code that works on that page.
+  The purpose of this page is to validate your answer code. Enter your code into the editor and press `decode(code);`. The result is displayed below. Given acceptable code, the decoded message should appear as the result. You are of course free to use whatever editors and tools you want, so long as you end up with code that works on that page. The editor provided there is fairly capable, so you may also code your solution there, just be careful not to refresh the page (your submissions should always work without needing to refresh).
 
 ** **
 ## Hints
@@ -39,4 +39,5 @@ code = code.match(/\w{2}/g).map(
 // Return the decoded string
 return code;
 ```
-If you went to the [companion page](https://deji69.github.io/decodervinci/) and submitted that code, you would see the answer in the output.
+If you went to the [companion page](https://deji69.github.io/decodervinci/) and submitted that code, you would see the answer in the output.  
+Don't worry if you couldn't tell the hex chars were in ASCII range, or even if they were ASCII chars. Experiment and use your intuition, you'll eventually get one step closer to figuring something out.

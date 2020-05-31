@@ -4,7 +4,7 @@
 <style>
 	body { font-size:18px; }
 	pre { margin: 0; }
-	button { background:#DDD !important; width: 150px; padding: 6px 0; }
+	button { background:#DDD !important; width: 200px; padding: 6px 0; }
 	.wrapped,.wrapped>code { white-space: normal !important; }
 </style>
 <script src="codemirror.js"></script>

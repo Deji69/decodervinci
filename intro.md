@@ -18,7 +18,7 @@ Dear devcord, your combined skills are needed to decrypt secret messa**g**es! Al
 
 ** **
 ## [__Companion page__](/decodervinci/)  
-  The purpose of this page is to validate your answer code. Enter your code into the editor and press `decode(code);`. The result is displayed below. Given acceptable code, the decoded message should appear as the result. You are of course free to use whatever editors and tools you want, so long as you end up with code that works on that page. The editor provided there is fairly capable, so you may also code your solution there, just be careful not to refresh the page (your submissions should always work without needing to refresh).
+  Use this page is to validate your answer code. Enter the encoded input into the 'Input code' field, and write your decoding code in the editor and press `decode(code);`. The result is displayed below. Given acceptable code, the decoded message should appear as the result. You are of course free to use whatever editors and tools you want, so long as you end up with code that works on that page. The editor provided there is fairly capable, so you may also code your solution there, just be careful not to refresh the page (your submissions should always work without needing to refresh). If your code returns a promise, it will be resolved using `await`.
 
 ** **
 ## Hints

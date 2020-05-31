@@ -26,10 +26,11 @@ Solution code was first posted by Sky after 1 hour 43 minutes: [Discord Message]
 * Deciphered clue #1. [Discord Message](https://discordapp.com/channels/174075418410876928/716116831290785883/716688713693790340)
 * Figured out "Six Four" reference in clue #2. [Discord Message](https://discordapp.com/channels/174075418410876928/716116831290785883/716693475952951457)
 
-### AdnanL
+### DINO
 * Identified the base 8 encoding. [Discord Message](https://discordapp.com/channels/174075418410876928/716116831290785883/716689549278969917)
+* Broke down the "novel age" clue. [Discord Message](https://discordapp.com/channels/174075418410876928/716116831290785883/716696041130557481)
 
-### waffeln
+### Roman
 * Observed the "colleague from Japan" hint. [Discord Message](https://discordapp.com/channels/174075418410876928/716116831290785883/716686775065509950)
 * Guessed clue #1 was referring to base 2 and base 8. [Discord Message](https://discordapp.com/channels/174075418410876928/716116831290785883/716689608980693104)
 

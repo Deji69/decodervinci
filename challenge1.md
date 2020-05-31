@@ -75,7 +75,7 @@ return result;
 * The base 64-ness of clue 2 was immediately obvious to many, but it took a while for anyone to consider caesar shifting it before decoding.
   * In the end I think someone actually caesar shifted it *after* decoding, which I didn't even consider a possibility.
   * Some thought it could be a JSON Web Token. Maybe next time.
-* A lot of people interpreted the "two eight" in clue 1 as hinting to base 28 or 16 (thinking "two eight" might be `2 * 8`).
+* A few people interpreted the "two eight" in clue 1 as hinting to base 28 or 16 (thinking "two eight" might be `2 * 8`).
 * The base 64 message twist was fairly successful in throwing people off for a while.
 
 # 💭 Concept

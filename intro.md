@@ -8,7 +8,8 @@ Dear devcord, your combined skills are needed to decrypt secret messa**g**es! Al
 `.^^....^.^^..^^`
 
 ** **
-## Rules
+## Guidelines
+  * These are community challenges for everyone to work together on. MVPs will be given kudos. There is however no one "winner". If you solve it quickly, you're encouraged to only share the decoded message in a `||spoiler tag||`, rather than the full method/answer to decoding, at least until others have had a fair chance or appear stumped.
   * Answers must be given as front end JavaScript code which runs on the companion page and returns the decoded message.
   * Answer code must demonstrate the proper steps to solve the puzzle. For example, you should not do anything like `code.replace('414243', 'abc')` to convert hex to text. Your code should be ready to decode multiple codes encrypted with similar methods.
   * Feel free to Google and ~~steal~~ use code you find online in your answer code.

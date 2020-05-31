@@ -55,7 +55,7 @@ code = code.match(/\w{2}/g).map(
 // Return the decoded string
 return code;</textarea>}
 </code></pre>
-<button id="run" class="CodeMirror cm-s-default" type="button"><span class="cm-keyword">await</span> <span class="cm-variable-2"><span class="cm-variable-2">decode</span>(<span class="cm-variable-2">code</span>);</button>
+<button id="run" class="CodeMirror cm-s-default" type="button"><span class="cm-keyword">await</span> <span class="cm-variable-2">decode</span>(<span class="cm-variable-2">code</span>);</button>
 <div class="result wrapped">
 	<h3>Output:</h3>
 	<pre><code id="result-code"></code></pre>

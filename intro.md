@@ -9,13 +9,13 @@ Dear devcord, your combined skills are needed to decrypt secret messa**g**es! Al
 
 ** **
 ## Guidelines
-  * These are community challenges for everyone to work together on. MVPs will be given kudos. There is however no one "winner". If you solve it quickly, you're encouraged to only share the decoded message in a `||spoiler tag||`, rather than the full method/answer to decoding, at least until others have had a fair chance or appear stumped.
-  * Answers must be given as front end JavaScript code which runs on the companion page and returns the decoded message.
-  * Answer code must demonstrate the proper steps to solve the puzzle. For example, you should not do anything like `code.replace('414243', 'abc')` to convert hex to text. Your code should be ready to decode multiple codes encrypted with similar methods.
-  * Feel free to Google and ~~steal~~ use code you find online in your answer code.
-  * Clues and answers can be shared and discussed freely in the channel.
-  * Collaboration is highly encouraged! MVPs will be crowned as well as those who post code answers. This is more of group effort to find the answer than a competition, but feel free to get competitive if you want.
-  * If you have any doubts or questions about the challenge(s), feel free to ping @Deji#4519, but be mindful that answers are will be made at his own convenience and discretion (he will not spoil clues unless he feels it is absolutely necessary).
+  * MVPs will be 👑'd and [featured](challenge1.md) on the result post and page, as well as awarded kudos (devcord points). MVPs are generally anyone who posts anything true that's helpful in progressing or solving the challenge, but are picked at my own discretion.
+  * The person who first posts the decoded message will get special recognition.
+  * The person who first posts a front end JavaScript solution code to decode the message (which works when pasted onto the companion page) will also get special recognition.
+  * Solution code must demonstrate the proper steps to solve the puzzle. For example, you should not do anything like code.replace('414243', 'abc') to convert hex to text. Your code will be tested against multiple other codes which are similarly encrypted so make it as flexible as you can!
+  * Feel free to Google and steal use code you find online in your solution code.
+  * New challenges should arrive each Sunday at 17:00 UTC, with any luck, though I'm organising these single-handedly, so delays or changes may happen.
+  * If you have any doubts or questions about the challenge(s), feel free to ping me on the server, but be mindful that answers are will be made at my own convenience and discretion (I won't spoil clues unless I feel it's absolutely necessary)..
 
 ** **
 ## [__Companion page__](/decodervinci/)  

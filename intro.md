@@ -11,9 +11,10 @@ Dear devcord, your combined skills are needed to decrypt secret messa**g**es! Al
 ## Guidelines
   * MVPs will be 👑'd and [featured](challenge1.md) on the result post and page, as well as awarded kudos (devcord points). MVPs are generally anyone who posts anything true and helpful in progressing or solving the challenge, but are picked at my own discretion.
   * The person who first shows the decoded result will be crowned as MVP.
-  * The person who first posts solution code in JavaScript (Node or Front End) or PHP will be crowned as MVP, so long as the result can be quickly and easily verified by myself.
+  * The person who first posts solution code in JavaScript (Node or Front End) or PHP will be crowned as MVP, so long as the result can be quickly and easily verified by myself (few to no dependencies - preferably I can run the code in an online environment).
+  * While solution code is only (currently) accepted in select languages, you may use whatever languages, tools and programming savvy you wish to solve the challenge itself (e.g. decoding a message or other challenge-specific instructions).
   * Solution code must demonstrate the proper steps to solve the puzzle. For example, you should not do anything like code.replace('414243', 'abc') to convert hex to text. Your code may be tested against multiple other codes which are similarly encrypted so make it as flexible as you can!
-  * Feel free to Google and steal use code you find online in your solution code.
+  * Feel free to Google and ~~steal~~ use code you find online in your solution code.
   * New challenges should arrive each Sunday at 17:00 UTC, with any luck, although I'm currently organising these alone, so delays or changes may occur.
   * If you have any doubts or questions about the challenge(s), feel free to ping me on the server, but be mindful that answers are will be made at my own convenience and discretion (I won't spoil clues unless I feel it's absolutely necessary)..
 

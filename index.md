@@ -27,14 +27,17 @@ document.addEventListener('DOMContentLoaded', () => {
 		assignValueEl.innerText = '"'+code+'"';
 	});
 	runButton.addEventListener('click', () => {
+		resultCode.innerHTML = '';
 		const src = 'return (async function(){'+editor.getValue()+'})()';
 		const func = new Function('code', src);
 		func(code).then(res => {
 			console.log(res);
 			if (typeof(res) === 'string')
 				resultCode.innerText = res;
+			else if (res instanceof Node)
+				resultCode.appendChild(res);
 			else
-				resultCode.innerHTML = '<b>Invalid result type, string expected</b>';
+				resultCode.innerHTML = '<b>Invalid result type, string or Node expected</b>';
 		});
 	});
 });

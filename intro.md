@@ -9,17 +9,17 @@ Dear devcord, your combined skills are needed to decrypt secret messa**g**es! Al
 
 ** **
 ## Guidelines
-  * MVPs will be 👑'd and [featured](challenge1.md) on the result post and page, as well as awarded kudos (devcord points). MVPs are generally anyone who posts anything true that's helpful in progressing or solving the challenge, but are picked at my own discretion.
-  * The person who first posts the decoded message will get special recognition.
-  * The person who first posts a front end JavaScript solution code to decode the message (which works when pasted onto the companion page) will also get special recognition.
-  * Solution code must demonstrate the proper steps to solve the puzzle. For example, you should not do anything like code.replace('414243', 'abc') to convert hex to text. Your code will be tested against multiple other codes which are similarly encrypted so make it as flexible as you can!
+  * MVPs will be 👑'd and [featured](challenge1.md) on the result post and page, as well as awarded kudos (devcord points). MVPs are generally anyone who posts anything true and helpful in progressing or solving the challenge, but are picked at my own discretion.
+  * The person who first shows the decoded result will be crowned as MVP.
+  * The person who first posts solution code in JavaScript (Node or Front End) or PHP will be crowned as MVP, so long as the result can be quickly and easily verified by myself.
+  * Solution code must demonstrate the proper steps to solve the puzzle. For example, you should not do anything like code.replace('414243', 'abc') to convert hex to text. Your code may be tested against multiple other codes which are similarly encrypted so make it as flexible as you can!
   * Feel free to Google and steal use code you find online in your solution code.
-  * New challenges should arrive each Sunday at 17:00 UTC, with any luck, though I'm organising these single-handedly, so delays or changes may happen.
+  * New challenges should arrive each Sunday at 17:00 UTC, with any luck, although I'm currently organising these alone, so delays or changes may occur.
   * If you have any doubts or questions about the challenge(s), feel free to ping me on the server, but be mindful that answers are will be made at my own convenience and discretion (I won't spoil clues unless I feel it's absolutely necessary)..
 
 ** **
 ## [__Companion page__](/decodervinci/)  
-  Use this page is to validate your answer code. Enter the encoded input into the 'Input code' field, and write your decoding code in the editor and press `decode(code);`. The result is displayed below. Given acceptable code, the decoded message should appear as the result. You are of course free to use whatever editors and tools you want, so long as you end up with code that works on that page. The editor provided there is fairly capable, so you may also code your solution there, just be careful not to refresh the page (your submissions should always work without needing to refresh). If your code returns a promise, it will be resolved using `await`.
+  If your solution code uses front-end JavaScript, you may validate it on this page. Enter the encoded input into the 'Input code' field, write your decoding code in the editor and press `decode(code);`. The result is displayed below. The result will work for both plain text and HTML DOM elements. Given acceptable code, the decoded answer should appear as the result. If your code returns a promise, it will be resolved using `await`.
 
 ** **
 ## Hints

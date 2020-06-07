@@ -1,3 +1,10 @@
+<head>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+</head>
+
 # 📜   **<u>De</u>  <u>Cod</u>e<u>r</u>  <u>V</u>inci**  
 
 Dear devcord, your combined skills are needed to decrypt secret messa**g**es! All messages will be a **h**um**a**n readable "English" message, keyphrase, etc. **o**nce dec**od**ed. It should be fair**l**y ob**v**io**u**s to t**e**ll when you have the decoded message. Encryption methods may involve di**f**ferent encryption or hashing algorithms or other tri**ck**s, and anything that the average devcord **u**ser may be expected to k**n**ow.

@@ -46,8 +46,6 @@ document.addEventListener('DOMContentLoaded', () => {
 				resultCode.innerHTML = '<b>Invalid result type, string or Node expected</b>';
 				return;
 			}
-			
-			updateUrlGet('src', btoa(src));
 		});
 	});
 	if (urlParams.has('src')) editor.getDoc().setValue(atob(urlParams.get('src')));

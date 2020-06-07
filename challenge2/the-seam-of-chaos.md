@@ -2,6 +2,7 @@
 <style>
 * { margin:0; white-space:nowrap; }
 .body { height:100vh; display:flex; flex-direction:column; justify-content:center; background:#808080; }
+.container-lg { margin:0 !important; max-width:none !important; }
 div { display:flex; justify-content:center; }
 </style>
 <div class="body">

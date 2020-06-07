@@ -11,24 +11,30 @@
 <script src="./modes/javascript.js"></script>
 <script>
 console.log('Hello hacker!');
+const urlParams = new URLSearchParams(location.search);
+function updateUrlGet(name, val) {
+	urlParams.set(name, val);
+	const url = location.protocol + "//" + location.host + location.pathname + '?' + urlParams.toString();
+	window.history.pushState({path:url}, '', url);
+}
 let code = '6 8 6 5 6 c 6 c 6 f';
 document.addEventListener('DOMContentLoaded', () => {
 	const runButton = document.getElementById('run');
 	const resultCode = document.getElementById('result-code');
 	const codeEl = document.getElementById('code');
-	const editor = CodeMirror.fromTextArea(codeEl, {
-		lineNumbers: true,
-	});
+	const editor = CodeMirror.fromTextArea(codeEl, {lineNumbers: true});
 	const assignValueEl = document.getElementById('assign-value');
 	const codeInput = document.getElementById('code-input');
 	codeInput.placeholder = code;
+	editor.on('changes', _ => updateUrlGet('src', btoa(editor.getValue())));
 	codeInput.addEventListener('input', e => {
 		code = e.target.value;
 		assignValueEl.innerText = '"'+code+'"';
+		updateUrlGet('input', code);
 	});
 	runButton.addEventListener('click', () => {
 		resultCode.innerHTML = '';
-		const src = 'return (async function(){'+editor.getValue()+'})()';
+		const src = 'return (async function(){'+editor.getValue()+';})();';
 		const func = new Function('code', src);
 		func(code).then(res => {
 			console.log(res);
@@ -36,10 +42,19 @@ document.addEventListener('DOMContentLoaded', () => {
 				resultCode.innerText = res;
 			else if (res instanceof Node)
 				resultCode.appendChild(res);
-			else
+			else {
 				resultCode.innerHTML = '<b>Invalid result type, string or Node expected</b>';
+				return;
+			}
+			
+			updateUrlGet('src', btoa(src));
 		});
 	});
+	if (urlParams.has('src')) editor.getDoc().setValue(atob(urlParams.get('src')));
+	if (urlParams.has('input')) {
+		codeInput.value = urlParams.get('input');
+		codeInput.dispatchEvent(new Event('input', { bubbles: true }))
+	}
 });
 </script>
 

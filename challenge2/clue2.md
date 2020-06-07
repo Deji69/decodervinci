@@ -1,14 +1,11 @@
-<html><head>
-	<meta charset="utf-8">
-	<title>🟥</title>
-	<style>
-	* { margin:0; padding:0; }
-	body { display:flex; flex-direction:column; justify-content:center; background:#000; color:#FFF; white-space:nowrap; }
-	div { display:flex; justify-content:center; }
-	b { display:inline-block; width:32px; height:32px; margin:2px; line-height:32px; text-align:center; vertical-align:center; }
-	</style>
-</head>
-<body><div>
+## 🟥
+<style>
+* { margin:0; padding:0; }
+div { display:flex; justify-content:center; }
+.body { display:flex; flex-direction:column; justify-content:center; background:#000; color:#FFF; white-space:nowrap; }
+b { display:inline-block; width:32px; height:32px; margin:2px; line-height:32px; text-align:center; vertical-align:center; }
+</style>
+<div class="body"><div>
 <b style="background:#440000">44</b>
 <b style="background:#750000">75</b>
 <b style="background:#630000">63</b>
@@ -73,4 +70,4 @@
 <b style="background:#2e0000">2e</b>
 <b style="background:#2e0000">2e</b>
 <b style="background:#2e0000">2e</b>
-</div></body></html>
+</div></div>

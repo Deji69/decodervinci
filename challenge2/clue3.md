@@ -1,14 +1,13 @@
-<html><head>
-<meta charset="utf-8">
-<title>🗜 They Look Almost Identical</title>
+## 🗜 They Look Almost Identical
 <style>
 * { margin:0; padding:0; }
-body { background:#000; color:#FFF; white-space:nowrap; display:flex; flex-direction:column; justify-content:center; }
+div.body { background:#000; color:#FFF; white-space:nowrap; display:flex; flex-direction:column; justify-content:center; margin-top:0; }
 span { color:#FFF; }
 p { white-space:pre; font-family:monospace; font-size:16px; text-align:center; }
 h3 { text-align:center; margin-bottom:8px; }
 div+div { margin-top:20px; }
-</style></head><body>
+</style>
+<div class="body">
 <div>
 <h3><u>Original</u></h3>
 <p><span class="u0">b</span><span class="u1">:</span><span class="u2">i</span><span class="u3">f</span><span class="u4">y</span><span class="u5">r</span><span class="u6">o</span><span class="u7">y</span><span class="u8">h</span><span class="u9">g</span><span class="u10">j</span><span class="u11">q</span><span class="u12">l</span><span class="u13">v</span><span class="u14">h</span><span class="u15">p</span><span class="u16">s</span><span class="u17">w</span><span class="u18">t</span><span class="u19">k</span><span class="u20">j</span><span class="u21">t</span><span class="u22">e</span><span class="u23">j</span><span class="u24">t</span><span class="u25">s</span><span class="u26">c</span><span class="u27">f</span><span class="u28">w</span><span class="u29">r</span><span class="u30">.</span><span class="u31">w</span><span class="u32">o</span>
@@ -43,4 +42,4 @@ div+div { margin-top:20px; }
 <span class="c363">y</span><span class="c364">p</span><span class="c365">:</span><span class="c366">z</span><span class="c367">f</span><span class="c368">y</span><span class="c369">w</span><span class="c370">/</span><span class="c371">d</span><span class="c372">f</span><span class="c373">d</span><span class="c374">b</span><span class="c375">v</span><span class="c376">b</span><span class="c377">v</span><span class="c378">a</span><span class="c379">l</span><span class="c380">m</span><span class="c381">_</span><span class="c382">_</span><span class="c383">a</span><span class="c384">w</span><span class="c385">h</span><span class="c386">e</span><span class="c387">e</span><span class="c388">r</span><span class="c389">U</span><span class="c390">h</span><span class="c391">.</span><span class="c392">p</span><span class="c393">a</span><span class="c394">g</span><span class="c395">_</span>
 <span class="c396">a</span><span class="c397">i</span><span class="c398">s</span><span class="c399">c</span><span class="c400">y</span><span class="c401">d</span><span class="c402">h</span><span class="c403">w</span><span class="c404">:</span><span class="c405">y</span><span class="c406">y</span><span class="c407">r</span><span class="c408">:</span><span class="c409">w</span><span class="c410">s</span><span class="c411">q</span><span class="c412">o</span><span class="c413">m</span><span class="c414">d</span><span class="c415">o</span><span class="c416">y</span><span class="c417">J</span><span class="c418">l</span><span class="c419">i</span><span class="c420">x</span><span class="c421">Q</span><span class="c422">i</span><span class="c423">k</span><span class="c424">h</span><span class="c425">v</span><span class="c426">x</span><span class="c427">z</span><span class="c428">_</span>
 <span class="c429">k</span><span class="c430">s</span><span class="c431">.</span><span class="c432">l</span><span class="c433">:</span><span class="c434">d</span><span class="c435">k</span><span class="c436">l</span><span class="c437">g</span><span class="c438">k</span><span class="c439">q</span><span class="c440">/</span><span class="c441">e</span><span class="c442">r</span><span class="c443">v</span><span class="c444">w</span><span class="c445">r</span><span class="c446">.</span><span class="c447">m</span><span class="c448">p</span><span class="c449">c</span><span class="c450">t</span><span class="c451">_</span><span class="c452">k</span><span class="c453">t</span><span class="c454">n</span><span class="c455">q</span><span class="c456">m</span><span class="c457">v</span><span class="c458">i</span><span class="c459">g</span><span class="c460">h</span><span class="c461">w</span></p>
-</div></body></html>
+</div></div>

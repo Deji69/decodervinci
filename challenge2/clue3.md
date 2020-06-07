@@ -4,7 +4,7 @@
 div.body { background:#000; color:#FFF; white-space:nowrap; display:flex; flex-direction:column; justify-content:center; margin-top:0; position:absolute; top:0; bottom:0; left:0; right:0; line-height:normal !important; }
 span { color:#FFF; }
 p { white-space:pre; font-family:monospace; font-size:16px; text-align:center; margin:0 !important; }
-h3 { text-align:center; margin-bottom:8px; }
+h3 { text-align:center; margin-top:0 !important; margin-bottom:8px; }
 div+div { margin-top:20px; }
 </style>
 <div class="body">

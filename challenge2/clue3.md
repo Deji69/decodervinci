@@ -1,7 +1,7 @@
 ## 🗜 They Look Almost Identical
 <style>
 * { margin:0; padding:0; }
-div.body { background:#000; color:#FFF; white-space:nowrap; display:flex; flex-direction:column; justify-content:center; margin-top:0; }
+div.body { background:#000; color:#FFF; white-space:nowrap; display:flex; flex-direction:column; justify-content:center; margin-top:0; position:absolute; top:0; bottom:0; left:0; right:0; }
 span { color:#FFF; }
 p { white-space:pre; font-family:monospace; font-size:16px; text-align:center; }
 h3 { text-align:center; margin-bottom:8px; }

@@ -1,7 +1,7 @@
 ## If I Squint I Swear I Can Still See Her Smile
 <style>
 	* { margin:0; padding:0; }
-	.body { display:flex; justify-content:center; align-items:center; background:#000; color:#FFF; }
+	.body { display:flex; justify-content:center; align-items:center; background:#000; color:#FFF; position:absolute; top:0; bottom:0; left:0; right:0; }
 	p { font-family:monospace; transform:scale(1.7,1); white-space:pre; }
 	.e,.f,.n1,.n7 { color:#888; }
 </style>

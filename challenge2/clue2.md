@@ -2,7 +2,7 @@
 <style>
 * { margin:0; padding:0; }
 div { display:flex; justify-content:center; }
-.body { display:flex; flex-direction:column; justify-content:center; background:#000; color:#FFF; white-space:nowrap; }
+.body { display:flex; flex-direction:column; justify-content:center; background:#000; color:#FFF; white-space:nowrap; position:absolute; top:0; bottom:0; left:0; right:0; }
 b { display:inline-block; width:32px; height:32px; margin:2px; line-height:32px; text-align:center; vertical-align:center; }
 </style>
 <div class="body"><div>

@@ -1,7 +1,7 @@
 ## 🔒 There Goes Your Precious Painting HAHAHA!</title>
 <style>
 * { margin:0; padding:0; }
-.body { display:flex; justify-content:center; align-items:center; height:100vh; font-size:8px; background:#000; color:#000; }
+.body { display:flex; justify-content:center; align-items:center; height:100vh; font-size:8px; background:#000; color:#000; position:absolute; top:0; bottom:0; left:0; right:0; }
 /**
 	I see a red door and I want it painted black
 	No colors anymore, I want them to turn black

@@ -1,7 +1,7 @@
 ## 🧩 I'll Show You Chaos!!!
 <style>
 * { margin:0; white-space:nowrap; }
-.body { height:100vh; display:flex; flex-direction:column; justify-content:center; background:#808080; }
+.body { height:100vh; display:flex; flex-direction:column; justify-content:center; background:#808080; position:absolute; top:0; bottom:0; left:0; right:0; }
 .container-lg { margin:0 !important; max-width:none !important; }
 div { display:flex; justify-content:center; }
 </style>
